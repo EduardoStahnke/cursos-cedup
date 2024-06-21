@@ -1,0 +1,367 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, arial, sans-serif;
+  color: #555555;
+  font-size: 0.8em;
+}
+
+.headerPag {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 1px solid #555555;
+}
+
+.PagContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40px;
+  border: 1px solid #555555;
+}
+
+.icone {
+  width: 22px;
+  height: 22px;
+}
+
+.headerPagEsq {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.headerPagDir {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  border-bottom: 1px solid #555555;
+  position: sticky;
+  top: 0px;
+  background-color: #ffffff;
+}
+
+.imgLogoCedup {
+  max-height: 60px;
+}
+
+.navBarDir {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.navBarContent {
+  padding: 0 18px;
+  font-weight: 600;
+}
+
+.menuButton {
+  display: none;
+  padding: 0 18px;
+  cursor: pointer;
+}
+
+.btnMenu {
+  width: 24px;
+  height: 18px;
+}
+
+.categCursosContent {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.categCurso {
+  margin-right: 370px;
+}
+
+.listaCategCursos {
+  position: relative;
+  display: inline-block;
+  margin-right: 80px;
+}
+
+.btnListaCateg {
+  font-size: 16px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 300px;
+  cursor: pointer;
+}
+
+.cursos {
+  position: relative;
+  top: -32px;
+  left: -45px;
+}
+
+.listaCateg {
+  display: inline-block;
+  border-width: 5px 5px 0 5px;
+  border-style: solid;
+  border-color: #000 transparent transparent transparent;
+  margin-left: 15px;
+}
+
+.listaCategCursos-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+
+.categTds {
+  padding: 8px;
+}
+
+.categEng {
+  padding: 8px;
+}
+
+.categExa {
+  padding: 8px;
+}
+
+.categSoc {
+  padding: 8px;
+}
+
+.listaCategCursos:hover .listaCategCursos-content {
+  display: block;
+  cursor: pointer;
+  color: black;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.gridCursos {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.cursosContent {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  border-radius: 10px;
+}
+
+.cursosContent img {
+  max-width: 100%;
+}
+
+.cursosContent .title {
+  font-size: 1.5em;
+  padding: 11px;
+  margin: 10px 10px;
+  color: #444444;
+  font-weight: 600;
+}
+
+.cursosContent .contentAdm {
+  font-size: 1.2em;
+  padding: 22px 10px 10px 25px;
+}
+
+.cursosContent .contentInfo {
+  font-size: 1.2em;
+  padding: 0 10px 10px 25px;
+}
+
+.cursosContent .contentEle {
+  font-size: 1.2em;
+  padding: 22px 10px 28px 25px;
+}
+
+.cursosContent .contentSeg {
+  font-size: 1.2em;
+  padding: 0 10px 10px 25px;
+}
+
+.imgComp {
+  width: 22px;
+  height: 22px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-left: 310px;
+  cursor: pointer;
+}
+
+.gridDir {
+  display: grid;
+  align-items: center;
+  justify-content: right;
+  margin-right: 250px;
+  margin-bottom: 500px;
+  margin-top: -888px;
+}
+
+.dirBarPesq.campoPesq {
+  background-color: #444444;
+  width: 500px;
+  height: 40px;
+}
+
+.dirBarPesq {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.dirBarCateg {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.btnBusca {
+  border: 10px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.dirBarPesq.campoPesq {
+  background-color: #444444;
+  width: 500px;
+  height: 40px;
+}
+
+.titCateg {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.titComent {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.titArq {
+  font-size: medium;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.dirBarComent {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.dirBarArq {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.contentCateg {
+  padding: 5px;
+}
+
+.contentComent {
+  padding: 5px;
+}
+
+.contentArq {
+  padding: 5px;
+}
+
+.rodapeBar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.rodapeMenu {
+  padding: 1em 15em;
+  font-size: 14px;
+}
+
+.rodapeMenu li {
+  margin-bottom: 15px;
+}
+
+.rodapeMenu a {
+  color: #ffffff;
+}
+
+.rodapeMenu a:hover {
+  text-decoration: underline;
+}
+
+.cedup {
+  padding: 0px 240px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  position: relative;
+}
+
+.txt2019 {
+  padding: 0 340px;
+  margin-top: -15px;
+  font-size: 14px;
+  color: #555555;
+  font-weight: 600;
+  position: relative;
+}
+
+.rodapeSobre {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 50em;
+  width: 25%;
+  top: -150px;
+  margin-bottom: -100px;
+}
+
+.rodapeSobreNos {
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.8em;
+  color: #ffffff;
+}
+
+.rodapecontent {
+  color: #222222;
+  align-items: center;
+}
+
+.rodapeVeja {
+  padding: 10px;
+  color: #ffffff;
+}
